@@ -4,7 +4,8 @@
   "description": "coba-google-gen-ai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/allan-ds/coba-google-gen-ai/issues"
   },
-  "homepage": "https://github.com/allan-ds/coba-google-gen-ai#readme"
+  "homepage": "https://github.com/allan-ds/coba-google-gen-ai#readme",
+  "dependencies": {
+    "@google/genai": "^1.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
+  }
 }
